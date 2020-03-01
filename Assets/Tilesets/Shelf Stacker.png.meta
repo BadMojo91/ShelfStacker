@@ -1,0 +1,313 @@
+fileFormatVersion: 2
+guid: 8992f3551822d5e4499dde7050fc5f2e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8746782244145551321
+    second: Shelf Stacker_0
+  - first:
+      213: -8374398257340862777
+    second: Shelf Stacker_1
+  - first:
+      213: -6220086095941598503
+    second: Shelf Stacker_2
+  - first:
+      213: 2547307376911742463
+    second: Shelf Stacker_3
+  - first:
+      213: -5325151843356447064
+    second: Shelf Stacker_4
+  - first:
+      213: 514408417767951609
+    second: Shelf Stacker_5
+  - first:
+      213: -8835844496972020002
+    second: Shelf Stacker_6
+  - first:
+      213: 3928322311935529526
+    second: Shelf Stacker_7
+  - first:
+      213: 2735399896135183463
+    second: Shelf Stacker_8
+  - first:
+      213: 4557005129814783159
+    second: Shelf Stacker_9
+  - first:
+      213: -2758799311826670645
+    second: Shelf Stacker_10
+  - first:
+      213: -3145281043828916507
+    second: Shelf Stacker_11
+  - first:
+      213: -2119481490524916058
+    second: Shelf Stacker_12
+  - first:
+      213: 2790044755583120165
+    second: Shelf Stacker_13
+  - first:
+      213: -7752874964735372694
+    second: Shelf Stacker_14
+  - first:
+      213: 8739007931221055465
+    second: Shelf Stacker_15
+  - first:
+      213: 264696736399416780
+    second: Shelf Stacker_16
+  - first:
+      213: 3108989058123143595
+    second: Shelf Stacker_17
+  - first:
+      213: -7057497061556160538
+    second: Shelf Stacker_18
+  - first:
+      213: -5765569445102533419
+    second: Shelf Stacker_19
+  - first:
+      213: 47342808123232046
+    second: Shelf Stacker_20
+  - first:
+      213: 586978940643747429
+    second: Shelf Stacker_21
+  - first:
+      213: -3853457586771539631
+    second: Shelf Stacker_22
+  - first:
+      213: -6299474906637453914
+    second: Shelf Stacker_23
+  - first:
+      213: -2607203823553960941
+    second: Shelf Stacker_0
+  - first:
+      213: 1629440729318741165
+    second: Shelf Stacker_1
+  - first:
+      213: 111977965845416510
+    second: Shelf Stacker_2
+  - first:
+      213: -4038784652557026194
+    second: Shelf Stacker_3
+  - first:
+      213: -3315481234902491022
+    second: Shelf Stacker_4
+  - first:
+      213: 2063006505325276173
+    second: Shelf Stacker_5
+  - first:
+      213: -7171828719526584724
+    second: Shelf Stacker_6
+  - first:
+      213: -4352315331761483611
+    second: Shelf Stacker_7
+  - first:
+      213: 6882514010360964028
+    second: Shelf Stacker_8
+  - first:
+      213: 7863452969825746162
+    second: Shelf Stacker_9
+  - first:
+      213: -1443834897326430437
+    second: Shelf Stacker_10
+  - first:
+      213: -8126654615553924188
+    second: Shelf Stacker_11
+  - first:
+      213: 369549083097757270
+    second: Shelf Stacker_12
+  - first:
+      213: 7559549297084851056
+    second: Shelf Stacker_13
+  - first:
+      213: -5339288905002248749
+    second: Shelf Stacker_14
+  - first:
+      213: 8344902716754014020
+    second: Shelf Stacker_15
+  - first:
+      213: 4874389204629164398
+    second: Shelf Stacker_16
+  - first:
+      213: 9164430993424861366
+    second: Shelf Stacker_17
+  - first:
+      213: 343690930395427827
+    second: Shelf Stacker_18
+  - first:
+      213: 6705708801477491501
+    second: Shelf Stacker_19
+  - first:
+      213: 5137601497802890501
+    second: Shelf Stacker_20
+  - first:
+      213: 139101067877359113
+    second: Shelf Stacker_21
+  - first:
+      213: 2228338081013638420
+    second: Shelf Stacker_22
+  - first:
+      213: -2144708638934639504
+    second: Shelf Stacker_23
+  - first:
+      213: 9198015521719657242
+    second: Shelf Stacker_24
+  - first:
+      213: 4234885891896773256
+    second: Shelf Stacker_25
+  - first:
+      213: 1795453012729824118
+    second: Shelf Stacker_26
+  - first:
+      213: -8685348143196474169
+    second: Shelf Stacker_27
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shelf Stacker_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314a600afe951dbd0800000000000000
+      internalID: -2607203823553960941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shelf Stacker_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4d89dc5bfec9610800000000000000
+      internalID: 1629440729318741165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f49021b71eedbc747974a801e61d168a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
