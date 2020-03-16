@@ -26,6 +26,13 @@ public class Player : MonoBehaviour
     private Bay currentBay;
 
     private bool crouch;
+    private bool lockCursor = true;
+
+    private void ToggleLockState()
+    {
+        if (lockCursor) { Cursor.lockState = CursorLockMode.None; Cursor.visible = true; lockCursor = false; }
+        else { Cursor.lockState = CursorLockMode.Locked; Cursor.visible = false; lockCursor = true; }
+    }
 
     public enum InteractionType
     {
@@ -39,11 +46,17 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     private void Update()
     {
-        mouseController.MouseUpdate(transform, Camera.main.transform);
+        if (Input.GetKeyDown(KeyCode.Escape))
+            ToggleLockState();
+
+        if (lockCursor)
+            mouseController.MouseUpdate(transform, Camera.main.transform);
 
         //movement
         MoveUpdate();

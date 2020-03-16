@@ -37,6 +37,7 @@ public class Bay : MonoBehaviour
     //private
     private ProductPlacement[,,] productPool;
 
+    private readonly int maxCombinedAmount = 100;
     private List<GameObject> combinedMeshes = new List<GameObject>();
     private Vector3 boundsOffset;
     private Vector3 boundsSize;
@@ -95,9 +96,11 @@ public class Bay : MonoBehaviour
             {
                 for (int z = 0; z < maxProductsDepth; z++)
                 {
-                    if (productPool[x, y, z].active && Vector3.Distance(user.position, productPool[x, y, z].position) < distanceFromUser)
+                    if (y + 1 < maxProductsHeight && productPool[x, y + 1, z].active)
+                        continue;
+                    if (productPool[x, y, z].active && Vector3.Distance(user.position, transform.position + productPool[x, y, z].position) < distanceFromUser)
                     {
-                        distanceFromUser = Vector3.Distance(user.position, productPool[x, y, z].position);
+                        distanceFromUser = Vector3.Distance(user.position, transform.position + productPool[x, y, z].position);
                         index = new Vector3Int(x, y, z);
                     }
                 }
@@ -280,7 +283,7 @@ public class Bay : MonoBehaviour
             {
                 for (int z = 0; z < maxProductsDepth; z++)
                 {
-                    if (i >= 50)
+                    if (i >= maxCombinedAmount)
                     {
                         Mesh newMesh = new Mesh();
                         newMesh.CombineMeshes(combine.ToArray(), true);

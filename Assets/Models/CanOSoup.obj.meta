@@ -3,7 +3,17 @@ guid: 32a3a9acd462a3c43875a08b673a4336
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CanOBeansMaterial
+    second: {fileID: 2100000, guid: c5e6bf733cfd4164baf21640042bbed6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: c5e6bf733cfd4164baf21640042bbed6, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

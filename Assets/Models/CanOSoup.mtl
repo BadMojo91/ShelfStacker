@@ -1,7 +1,7 @@
 # Blender MTL File: 'None'
 # Material Count: 1
 
-newmtl Material.001
+newmtl CanOBeansMaterial
 Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.800000 0.800000 0.800000
@@ -11,3 +11,5 @@ Ni 1.450000
 d 1.000000
 illum 2
 map_Kd Can'o'soup.png
+map_Ks Can'o'soup_s.png
+refl Can'o'soup_s.png

@@ -8,45 +8,27 @@ public class MouseLook
     public float XSensitivity = 2f;
     public float YSensitivity = 2f;
     public bool invertedMouse;
-    private static bool lockMouse = true;
+
     private Quaternion m_CharacterTargetRot;
     private Quaternion m_CameraTargetRot;
 
     public void MouseUpdate(Transform player, Transform head)
     {
-        if (Input.GetKeyDown(KeyCode.F11))
-            ToggleLockState();
+        m_CharacterTargetRot = player.localRotation;
+        m_CameraTargetRot = head.localRotation;
 
-        if (lockMouse)
-        {
-            m_CharacterTargetRot = player.localRotation;
-            m_CameraTargetRot = head.localRotation;
+        float yRot = Input.GetAxis("Mouse X") * XSensitivity;
+        float xRot = Input.GetAxis("Mouse Y") * YSensitivity;
+        if (invertedMouse)
+            xRot = -xRot;
 
-            float yRot = Input.GetAxis("Mouse X") * XSensitivity;
-            float xRot = Input.GetAxis("Mouse Y") * YSensitivity;
-            if (invertedMouse)
-                xRot = -xRot;
+        m_CharacterTargetRot *= Quaternion.Euler(0f, yRot, 0f);
+        m_CameraTargetRot *= Quaternion.Euler(-xRot, 0f, 0f);
 
-            m_CharacterTargetRot *= Quaternion.Euler(0f, yRot, 0f);
-            m_CameraTargetRot *= Quaternion.Euler(-xRot, 0f, 0f);
+        m_CameraTargetRot = ClampRotationAroundXAxis(m_CameraTargetRot);
 
-            m_CameraTargetRot = ClampRotationAroundXAxis(m_CameraTargetRot);
-
-            player.localRotation = m_CharacterTargetRot;
-            head.localRotation = m_CameraTargetRot;
-        }
-    }
-
-    private void ToggleLockState()
-    {
-        if (lockMouse) { Cursor.lockState = CursorLockMode.None; lockMouse = true; }
-        else { Cursor.lockState = CursorLockMode.Locked; lockMouse = false; }
-    }
-
-    public static void SetLockState(bool lockState)
-    {
-        if (lockState) { Cursor.lockState = CursorLockMode.None; lockMouse = true; }
-        else { Cursor.lockState = CursorLockMode.Locked; lockMouse = false; }
+        player.localRotation = m_CharacterTargetRot;
+        head.localRotation = m_CameraTargetRot;
     }
 
     private Quaternion ClampRotationAroundXAxis(Quaternion q)
